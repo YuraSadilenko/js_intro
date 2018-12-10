@@ -3,18 +3,29 @@ var courses = 'Mate Academy',
  myGroup = 'fe-oct18',
  comrads = ['Alina','Yura', 'Vadim', 'Dima', 'Serega'];
 
+ var saleStart = prompt('start discount time?');
+ var saleEnd = prompt('end dicount time?');
+ var time = prompt('what time is it?');
 
- var money = prompt('How much money do you have?')
-
- if(money >= 100) {
-   confirm('Here is your BigMac Menu');
- }else if( money >= 50 && money < 100) {
-   confirm('You can buy fry potato. and cheeseburger');
- }else if(money >= 20 && money <= 50) {
-   confirm('You can buy cola.')
- }else if(money < 20) {
-   alert('sorry! We dont have any food whis price');
+ if( time >= saleStart && time <= saleEnd){
+  alert('thшы is dicount time');
+ } else {
+   alert('no discount');
  }
+
+ var money = prompt('How much money do you have?');
+
+if(money >= 100) {
+  confirm('Here is your BigMac Menu');
+}else if( money >= 50 && money < 100 ) {
+  confirm('You can buy fry potato. and cheeseburger');
+}else if( money >= 20 && money <= 50 ) {
+  confirm('You can buy cola.')
+}else if (money === null) {
+  alert('You dont buy anything.');
+}else if ( money < 20 ) {
+  alert('sorry! We dont have any food whis price');
+}
 
  
 

@@ -11,15 +11,15 @@ var s = confirm("Did Staphan came to the party?");
 
 if( a == false && k == false && s == false) {
   alert('Masha is sad. She like when someone came');
-}else if(a == true && k == false && s == false){
+} else if(a == true && k == false && s == false) {
   alert('Masha happy. She love when Angela come')
-}else if ( a == false && k == true && s == true) {
+} else if ( a == false && k == true && s == true) {
   alert('Masha is happy she can watch the show');
-} else if ( a == false && k == true || s == true) {
+} else if ( a == true && k == true && s == true) {
+  alert('Masha sad guy a angry about girl');
+}  else if ( a == false && k == true || s == true) {
   alert('Masha is sad. She dont like when only one man come');
 } else if ( a == true && k == true || s == true) {
   alert('Masha is happy. good company 1 man 1 women');
-} else if ( a == true && k == true && s == true) {
-  alert('Masha sad guy a angry about girl');
-} 
+}
 
