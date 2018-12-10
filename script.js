@@ -22,9 +22,9 @@ if(money >= 100) {
 }else if( money >= 20 && money <= 50 ) {
   confirm('You can buy cola.')
 }else if (money === null) {
-  alert('You dont buy anything.');
+  console.log('You dont buy anything.');
 }else if ( money < 20 ) {
-  alert('sorry! We dont have any food whis price');
+  console.log('sorry! We dont have any food whis price');
 }
 
  
