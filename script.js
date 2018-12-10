@@ -8,7 +8,7 @@ var courses = 'Mate Academy',
  var time = prompt('what time is it?');
 
  if( time >= saleStart && time <= saleEnd){
-  alert('thшы is dicount time');
+  alert('this is dicount time');
  } else {
    alert('no discount');
  }
