@@ -23,7 +23,7 @@ console.log(time);
 
 if (saleStart < saleEnd && time >= saleStart && time <= saleEnd) {
   console.log('this is morning dicount time');
-} else if (saleStart > saleEnd && ( time >= saleStart || time <= saleEnd )) {
+} else if (saleStart > saleEnd && (time >= saleStart || time <= saleEnd)) {
   console.log('this is evening dicount time');
 } else {
   console.log('no discount');
